@@ -1,0 +1,17 @@
+.landing-message {
+    font-size: 0.95rem;
+    color: var(--color-secondary);
+    font-family: Merriweather-Regular;
+}
+
+.landing-define-box {
+    min-height: 500px;
+    min-width: 40%;
+    max-width: 100%;
+}
+
+.logo {
+    font-family: Merriweather-Black;
+    font-size: 5rem;
+    color: var(--color-primary)
+}

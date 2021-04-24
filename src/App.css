@@ -1,0 +1,76 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: rgb(247, 241, 189);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+:root {
+    --color-bg: #000;
+    --color-fg: rgb(255, 255, 255);
+    --color-hover: #76f7ac;
+    --color-peach: #ff8f7d;
+    --color-green: #76f7ac;
+    --color-warning: #f5e23b;
+    --color-cyan: #1c98eb;
+    --color-approved: #00ad45;
+    --color-error-fg: #fc6666;
+    --color-canceled: #ff0000;
+    --color-primary: #c86aff;
+    --color-secondary: rgb(103, 189, 66);
+    --color-gray: #8AABCA;
+    --color-blue: #0011ff;
+    --color-blue-light: rgb(27, 85, 192);
+}
+
+@font-face {
+    font-family: Merriweather-Black;
+    src: url(./components/media/Merriweather-Black.ttf);
+}
+
+@font-face {
+    font-family: Merriweather-Bold;
+    src: url(./components/media/Merriweather-Bold.ttf);
+}
+
+@font-face {
+    font-family: Merriweather-Light;
+    src: url(./components/media/Merriweather-Light.ttf);
+}
+
+@font-face {
+    font-family: Merriweather-Regular;
+    src: url(./components/media/Merriweather-Regular.ttf);
+}

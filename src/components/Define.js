@@ -23,12 +23,11 @@ const DefineComponent = React.forwardRef((props, ref) => {
             className="col-12  searchInput"
             value={word}
             onChange={(param) => handleWord(param)}
-            placeholder="Buscar por id"
+            placeholder="Palabra"
           ></input>
         </div>
       </div>
       <div className="col-8 mt-5 searchBar mr-auto ml-auto">
-       
         <div className="col-12">
           <textarea
             type="text"
@@ -41,10 +40,13 @@ const DefineComponent = React.forwardRef((props, ref) => {
         </div>
       </div>
 
-      <div ref={ref} className="define-all col-10 col-sm-6">
-        <div className="col-12 def-word">{word}</div>
-        <div className="def-inside">{definition} </div>
-      </div>
+      {word ||
+        (definition && (
+          <div ref={ref} className="define-all col-10 col-sm-6">
+            <div className="col-12 def-word">{word}</div>
+            <div className="def-inside">{definition} </div>
+          </div>
+        ))}
     </React.Fragment>
   );
 });

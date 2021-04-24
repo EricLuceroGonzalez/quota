@@ -12,7 +12,7 @@ const Landing = () => {
 
   return (
     <div style={{padding: '2rem auto'}}>
-      <h1 className='logo'>MeDefine</h1>
+      <h1 className='logo'>Defi<span>no</span> </h1>
       <p className="landing-message">
         An app to make definitions dictionary-like, with custom arbitrary
         definitions, and colors.

@@ -50,9 +50,13 @@
     --color-canceled: #ff0000;
     --color-primary: #c86aff;
     --color-secondary: rgb(103, 189, 66);
-    --color-gray: #8AABCA;
+    --color-gray: #8aabca;
     --color-blue: #0011ff;
     --color-blue-light: rgb(27, 85, 192);
+}
+
+.bordeA {
+    border: 3px solid red;
 }
 
 @font-face {
@@ -73,4 +77,9 @@
 @font-face {
     font-family: Merriweather-Regular;
     src: url(./components/media/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: Merriweather-Italic;
+    src: url(./components/media/Merriweather-Italic.ttf)
 }

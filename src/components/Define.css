@@ -4,8 +4,8 @@
     background-color: white;
     background: white;
     color: black;
-    margin: 3em auto;
-    padding: 3em 0.5em;
+    margin: 2em auto;
+    padding: 2em 0.5em;
     /* border-radius: 2px; */
     /* box-shadow: 0 2px 1.6px rgba(0, 0, 0, 0.017), 0 4.5px 3.6px rgba(0, 0, 0, 0.013), 0 7.9px 6.3px rgba(0, 0, 0, 0.009), 0 12.5px 10px rgba(0, 0, 0, 0.008), 0 19.3px 15.5px rgba(0, 0, 0, 0.014), 0 30.1px 24.1px rgba(0, 0, 0, 0.029), 0 50px 40px rgba(0, 0, 0, 0.06), 0 100px 80px rgba(0, 0, 0, 0.12); */
     /* box-shadow: 0 0.8px 1px rgba(0, 0, 0, 0.19), 0 1.7px 2.4px rgba(0, 0, 0, 0.118), 0 3.3px 5px rgba(0, 0, 0, 0.091), 0 7.5px 10.2px rgba(0, 0, 0, 0.076), 0 28px 28px rgba(0, 0, 0, 0.057); */
@@ -35,13 +35,34 @@
     font-family: Merriweather-Black;
     font-size: 2.1em;
     text-align: left;
-    padding: 0.86em 0.35em 0.25em 0.85em;
+    padding: 0.86em auto;
+    ;
 }
 
 .def-inside {
-    margin: 10px auto;
-    font-size: 0.75em;
+    margin: 20px auto;
+    font-size: 0.85em;
     text-align: left;
-    padding: 0.25em 0.35em 0.25em 0.85em;
     font-family: Merriweather-Regular;
+}
+
+.def-cat {
+    font-family: Merriweather-Italic;
+    font-size: 0.7em;
+    text-align: left;
+    color: var(--color-primary);
+}
+
+.define-btn {
+    padding: 0.65rem 3rem;
+    border: none;
+    background: var(--color-primary);
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-family: Merriweather-Black;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

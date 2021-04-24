@@ -1,0 +1,128 @@
+{
+    "grammaticalCategories": [{
+            "category": "Adjetivo (es)",
+            "abbreviation": "adj.",
+            "Description": "Palabra que expresa una cualidad o propiedad del nombre y sirve para modificarlo (Tomado del DRAE)"
+        },
+        {
+            "category": "Adverbio (es)",
+            "abbreviation": "adv.",
+            "Description": "Clase de palabra que modifica el significado del verbo y el adjetivo (Tomado del DRAE)"
+        },
+        {
+            "category": "Conjunción (es)",
+            "abbreviation": "conj.",
+            "Description": "Palabra invariable que manifiesta relaciones de coordinación y subordinación entre palabras (Tomado del DRAE)"
+        },
+        {
+            "category": "Interjección (es)",
+            "abbreviation": "interj.",
+            "Description": "Palabra invariable, con cuyos elementos se forman enunciados exclamativos, que manifiestan impresiones, verbalización de sentimientos o realizan actos de habla apelativos (Tomado del DRAE)"
+        },
+        {
+            "category": "Locución adjetiva (es)",
+            "abbreviation": "loc. adj.",
+            "Description": "Se asemeja a un adjetivo en su comportamiento sintáctico o en su significado (Tomado del DRAE)"
+        },
+        {
+            "category": "Locución adverbial (es)",
+            "abbreviation": "loc. adv.",
+            "Description": "Se asemeja a un adverbio en su comportamiento sintáctico o en su significado (Tomado del DRAE)"
+        },
+        {
+            "category": "Locución nominal (es)",
+            "abbreviation": "loc. nom.",
+            "Description": "Locución sustantiva (Tomado del DRAE)"
+        },
+        {
+            "category": "Locución verbal (es)",
+            "abbreviation": "loc. verb.",
+            "Description": "Se asemeja a un verbo en su comportamiento sintáctico o en su significado (Tomado del DRAE)"
+        },
+        {
+            "category": "Numeral (es)",
+            "abbreviation": "num.",
+            "Description": "Cuantificador que expresa número (Tomado del DRAE)"
+        },
+        {
+            "category": "Preposición (es)",
+            "abbreviation": "prep.",
+            "Description": "Clase de palabras invariables cuyos elementos se caracterizan por introducir un término, eneralmente nominal u oracional, con el que forman grupo sintáctico (Tomado del DRAE)."
+        },
+        {
+            "category": "Pronombre demostrativo (es)",
+            "abbreviation": "pron. dem.",
+            "Description": "Que señala algo o a alguien y lo identifica en función de la distancia espacial o temporal que lo separa del hablante (Tomado del DRAE)."
+        },
+        {
+            "category": "Pronombre indefinido (es)",
+            "abbreviation": "pron. indef.",
+            "Description": "Que expresa cantidad o grado de manera indeterminada (Tomado del DRAE)."
+        },
+        {
+            "category": "Pronombre interrogativo (es)",
+            "abbreviation": "pron. interrog.",
+            "Description": "Que permite construir enunciados interrogativos (Tomado del DRAE)."
+        },
+        {
+            "category": "Pronombre personal (es)",
+            "abbreviation": "pron. pers.",
+            "Description": "Que posee flexión de persona, número y caso y que designa a los participantes en l discurso (Tomado del DRAE)."
+        },
+        {
+            "category": "Sustantivo (es)",
+            "abbreviation": "s.",
+            "Description": "Palabra que designa o identifica seres animados o inanimados (Tomado del DRAE)."
+        },
+        {
+            "category": "Sustantivo femenino (es)",
+            "abbreviation": "s. f.",
+            "Description": "Palabra que designa o identifica un ser animado del género femenino singular."
+        },
+        {
+            "category": "Sustantivo femenino y adjetivo (es)",
+            "abbreviation": "s. f. / adj.",
+            "Description": "Palabra que designa o identifica un ser o una cualidad de un ser animado del género femenino singular."
+        },
+        {
+            "category": "Sustantivo femnino plural (es)",
+            "abbreviation": "s. f. pl.",
+            "Description": "Palabra que designa o identifica un ser animado del género femenino plural."
+        },
+        {
+            "category": "Sustantivo masculino (es)",
+            "abbreviation": "s. m.",
+            "Description": "Palabra que designa o identifica un ser animado del género masculino singular."
+        },
+        {
+            "category": "Sustantivo masculino o femenino plural (es)",
+            "abbreviation": "s. pl.",
+            "Description": "Palabra que designa o identifica un ser animado del género masculino o femenino plural."
+        },
+        {
+            "category": "Sustantivo masculino o femenino plural y adjetivo (es)",
+            "abbreviation": "s. pl./adj.",
+            "Description": "Palabra que designa o identifica un ser o una cualidad de un ser animado del género masculino o femenino plural."
+        },
+        {
+            "category": "Sustantivo masculino plural (es)",
+            "abbreviation": "s. m. pl.",
+            "Description": "Palabra que designa o identifica un ser animado del género masculino plural."
+        },
+        {
+            "category": "Sustantivo masculino y adjetivo (es)",
+            "abbreviation": "s. m./adj.",
+            "Description": "Palabra que designa o identifica un ser o una cualidad de un ser animado del género masculino singular."
+        },
+        {
+            "category": "Verbo (es)",
+            "abbreviation": "v.",
+            "Description": "Clase de palabras cuyos elementos pueden tener variación de persona, número, tiempo, modo y aspecto (Tomado del DRAE)."
+        },
+        {
+            "category": "Verbo intransitivo (es)",
+            "abbreviation": "v. intr.",
+            "Description": "Que se construye sin complemento directo (Tomado del DRAE)."
+        }
+    ]
+}

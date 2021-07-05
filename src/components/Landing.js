@@ -14,14 +14,16 @@ const Landing = () => {
   return (
     <div className="w-full mt-6">
       <div className="w-full flex flex-col justify-center">
-        <h1 className="font-raleway text-indigo-600 text-6xl">
-          Quo<span className="text-indigo-500">ta</span>
+        <h1 className="font-raleway text-headline text-6xl">
+          Quo<span className="text-headline">ta</span>
         </h1>
-        <p className="text-xs md:text-sm text-indigo-400 font-raleway w-12/12 text-center">
-          An app to make definitions{" "}
-          <span className="text-yellow-500">quote-like</span>, with custom
-          arbitrary definitions, and colors.
-        </p>
+        <div className="w-12/12 flex justify-center">
+          <p className="text-xs md:text-sm text-highlight font-raleway w-8/12">
+            An app to make{" "}
+            <span className="text-secondary">quote-like</span>, with custom
+            & arbitrary definitions, and colors.
+          </p>
+        </div>
       </div>
       <div>
         <QuotaComponent />

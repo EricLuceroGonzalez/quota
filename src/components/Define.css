@@ -32,22 +32,18 @@
 }
 
 .def-word {
-    font-family: Merriweather-Black;
     font-size: 2.1em;
     text-align: left;
     padding: 0.86em auto;
-    ;
 }
 
 .def-inside {
     margin: 20px auto;
     font-size: 0.85em;
     text-align: left;
-    font-family: Merriweather-Regular;
 }
 
 .def-cat {
-    font-family: Merriweather-Italic;
     font-size: 0.7em;
     text-align: left;
     color: var(--color-primary);
@@ -60,7 +56,6 @@
     border-radius: 3px;
     color: white;
     cursor: pointer;
-    font-family: Merriweather-Black;
     position: fixed;
     bottom: 10px;
     left: 50%;

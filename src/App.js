@@ -1,5 +1,5 @@
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import DefineComponent from "./components/Define";
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import { Suspense } from "react";
